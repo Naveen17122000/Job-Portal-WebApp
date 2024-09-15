@@ -1,0 +1,57 @@
+.Contact-info{
+    margin: 10px;
+    width: 75vh;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.CInput{
+    border: 1px solid black;
+    height: 50px;
+    width: 25rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+.Clabel{
+    position: absolute;
+    top: 23px;
+    left: 20px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: top .3s;
+    padding: 0 5px;
+    pointer-events: none;
+}
+ .CInput:focus ~ .Clabel,
+.CInput:not(:placeholder-shown).CInput:not(:focus) ~.Clabel{
+      top: 2px;
+      background-color: white;
+      font-size: 10px;
+      color: blue;
+     
+     }
+.cprofile input {
+    width: 52.3rem;
+
+}
+
+/* Animation for form fields */
+.r3,
+.r4,
+.r5 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

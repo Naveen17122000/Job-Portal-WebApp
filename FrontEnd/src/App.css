@@ -1,0 +1,40 @@
+
+.bg{
+  /* background-image: url(./images/banner.jpg); */
+  /* background-color: aqua; */
+  background-size:cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  max-height: 167vh;
+  background-position: center;
+  padding-top: 4rem;
+  position: relative;
+  width: 100%;
+
+}
+
+/* responsive css style 
+@media (max-width: 1080px) {
+  .bg{
+    height: 110vh;
+  }
+}
+@media (max-width: 998px) {
+  .bg{
+    height: 138vh;
+  }
+
+}*/
+/* @media (max-width: 798px) {
+  .bg{
+    height: 550vh;
+  }
+}
+@media (max-width: 520px) {
+  .bg{
+    height: 155vh;
+  }
+}   */
+
+
+

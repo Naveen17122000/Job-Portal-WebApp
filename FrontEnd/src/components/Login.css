@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.lwrapper{
+  float: right;
+  position: relative;
+  top: -250px;
+  width: 420px;
+  height: 400px;
+  right: 120px;
+  background: transparent;
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 50px 40px;
+}
+
+.lwrapper h1{
+  font-size: 30px;
+  text-align: center;
+}
+.linput-box{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  margin: 30px 0;
+}
+.linput-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.linput-box input::placeholder{
+  color: #fff;
+}
+.linput-box box-icon{
+  position: absolute;
+  right: 5px;
+  top: 32%;
+  transform: translate(-50%);
+  font-size: 20px;
+
+}
+  .l-remember-forgot{
+  display: flex;
+  top: 10px;
+  position: relative;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.l-remember-forgot {
+  accent-color: #fff;
+  margin-right: 3px;
+
+}
+.l-remember-forgot a{
+  color: #fff;
+  text-decoration: none;
+
+}
+.l-remember-forgot a:hover{
+  text-decoration: none;
+} 
+ .lbutton{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+ .l-registerlink{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+} 
+.l-register-link p{
+  font-size: 15px;
+}
+.l-register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+.l-register-link p a:hover{
+  text-decoration: underline;
+} 
+
+  
+  /* responsive css style  */
+@media (max-width: 1080px) {
+  
+   .lwrapper{
+    width: 350px;
+    right: 35px;
+   
+   }
+}
+
+@media (max-width: 998px) {
+  
+  .lwrapper{
+    width: 340px;
+    right: 30px;
+    top:-150px;
+   }
+
+}
+@media (max-width: 798px) {
+ 
+  .lwrapper{
+    top: 200px;
+    padding: 30px;
+    left: 70px;
+    position: relative;
+    float: left;
+  }
+}
+
+@media (max-width: 520px) {
+  
+  .lwrapper{
+    width:290px;
+    position: relative;
+    float: left;
+    left: 15px;
+  }
+}

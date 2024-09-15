@@ -1,0 +1,280 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-size: 100vh;
+    
+  }
+  
+  .head{
+    color: white;
+  }
+  .head h1{
+    color:#E5E4E2;
+    font-size: 40px;
+    text-align: center;
+  }
+  .head p{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .contact{
+    display: grid;
+   grid-template-columns: 1fr 2fr 2fr 1fr;
+
+  } 
+  .contact-details{
+    position: relative;
+    grid-column: 2/3;
+    width: 510px;
+    background: #E5E4E2;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: black;
+    padding: 40px;
+    left: 2px;
+  }
+  .contact-details h1{
+    font-size: 40px;
+    text-align: left;
+    color: black;
+  }
+  .contact-details p{
+    font-size: 20px;
+    text-align: left;
+  }
+  .address1{
+    margin:  20px 5px;
+  }
+  .address1 box-icon{
+    position: absolute;
+    left: 4px;
+    
+  }
+  .address1 h1{
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    left: 35px;
+  }
+  .address1 p{
+    position: relative;
+    left: 35px;
+   
+   
+  }
+  .callus{
+    margin:  20px 5px;
+  }
+  .callus box-icon{
+    position: absolute;
+    left: 4px; 
+  }
+  .callus h1{
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    left: 35px;
+  }
+  .callus p{
+    position: relative;
+    left: 35px;
+  }
+  .email{
+    margin:  20px 5px;
+  }
+  .email box-icon{
+    position: absolute;
+    left: 4px; 
+    
+  }
+  .email h1{
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    left: 35px;
+  }
+  .email p{
+    position: relative;
+    left: 35px;
+  }
+  .contact-login{
+    grid-column: 3/4;
+    position: relative;
+    width: 504px;
+    background: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: black;
+    padding: 94px 40px;
+  }
+  .contact-login h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .jobimg {
+    width: 400px;
+  }
+  .contact-login p{
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+  }
+  .c-btn{
+    width: 80%;
+    height: 45px;
+    background: blue;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+  }
+  
+  .map iframe{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: white;
+    position: relative;
+    
+}
+
+@media (max-width: 1080px) {
+  .contact-details{
+    width: 450px;
+  }
+  .contact-login{
+    width: 450px;
+  }
+ 
+}
+@media (max-width: 998px) {
+  .Contact{
+    top: 170px;
+  }
+  .contact-details{
+    height: 700px;
+    width: 350px;
+    left: 0px;
+  }
+  .contact-login{
+    width: 350px;
+  }
+  .jobimg {
+    width: 250px;
+  }
+  .contact-login h1 ,
+  .contact-login p,
+  .jobimg , .c-btn{
+    top: 100px;
+  }
+ 
+}
+@media (max-width: 798px) {
+  .contact{
+    display: grid;
+   grid-template-columns: 5rem 2fr 5rem;
+  } 
+  .contact-details{
+    max-width: 900px;
+    width: 100%;
+    padding: 0px 30px;
+    grid-column: 2/3;
+    height: 65vh;
+  }
+  .address1,
+  .callus,
+  .email{
+    margin: 5px 10px;
+  }
+  .contact-details h1,
+  .address1 h1,
+  .callus h1,
+  .email h1 {
+    height: 10%;
+    font-size: 20px;
+  }
+  .contact-details p,
+  .address1 p,
+  .callus ,
+  .email p {
+    font-size: 15px;
+  }
+  .contact-login{
+    max-width: 800px;
+    width: 100%;
+    grid-column: 2/3;
+  }
+  .map iframe{
+  display: none;
+}
+.contact-login h1 ,
+.contact-login p,
+.jobimg , .c-btn{
+  top: -60px;
+}
+.jobimg {
+  height: 150px;
+}
+.c-btn{
+  margin: 10px;
+}
+}
+@media (max-width: 520px) {
+  .contact{
+    display: grid;
+   grid-template-columns: 1rem 1fr 1rem;
+  } 
+  .contact-details{
+    max-width: 800px;
+    width: 90%;
+    padding: 0px 10px;
+    grid-column: 2/3;
+    height: 62vh;
+  }
+  .address1,
+  .callus,
+  .email{
+    margin: 0px 1px;
+  }
+  .contact-details h1,
+  .address1 h1,
+  .callus h1,
+  .email h1 {
+    height: 10%;
+    font-size: 20px;
+  }
+  .contact-details p,
+  .address1 p,
+  .callus ,
+  .email p {
+    font-size: 15px;
+  }
+  .contact-login{
+    max-width: 800px;
+    width: 90%;
+    grid-column: 2/3;
+  }
+  .map iframe{
+  display: none;
+}
+.contact-login h1 ,
+.contact-login p,
+.jobimg , .c-btn{
+  top: -80px;
+}
+.contact-login h1{
+  font-size: 30px;
+}
+.contact-login p {
+  font-size: 20px;
+}
+.jobimg {
+  height: 150px;
+}
+.c-btn{
+  margin: 0px;
+}
+  
+}  

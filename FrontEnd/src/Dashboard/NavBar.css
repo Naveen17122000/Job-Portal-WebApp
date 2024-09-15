@@ -1,0 +1,24 @@
+.Navbar {
+    background-color: rgb(77, 73, 73);
+    height: 60px;
+    width: 100%;
+    top: -40px;
+    color: black;
+}
+
+.Nav-head {
+    position: relative;
+    top: 7px;
+    float: left;
+    left: 60px;
+    font-size: 20px;
+}
+.logout{
+    margin-top: 14px;
+    margin-left: 125cap;
+    background-color:black;
+    color:rgb(244, 161, 53);
+    border-radius: 20px;
+    height: 35px;
+    width:60px;
+}

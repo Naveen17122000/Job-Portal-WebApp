@@ -1,0 +1,35 @@
+.box-body {
+  margin: auto; 
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 10px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid black; 
+  box-shadow: 0 0 30px rgb(7, 7, 7);
+}
+.job {
+    width: 900px;
+    height: 150px;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+  }
+  
+  td {
+    text-align: center;
+    border: 2px solid black;
+  }
+  .back{
+    margin-top: 20px;
+    margin-left: 865px;
+    background-color: black;
+    color: rgb(232, 172, 99);
+    height: 30px;
+    width: 50px;
+    border-radius: 20px;
+  }
+ 

@@ -1,0 +1,211 @@
+.g1{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 30px
+}
+.box523{
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 70px;
+  width: 950px;
+  height: 370px;
+  border: 2px solid rgb(151, 148, 148);
+  border-radius: 10px;
+}
+.box642{
+  position: absolute;
+  width: 900px;
+  height: 280px;
+  border: 2px solid rgb(237, 232, 232);
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgb(7, 7, 7);
+}
+.g2{
+  width: 410px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 25px;
+  text-align: center;
+}
+.g6 {
+  color: gold;
+  background-color: black;
+  margin-top: 390px;
+  border-radius: 10px;
+  font-size: 18px; /* Adjust the font size as needed */
+  padding: 10px 20px; /* Adjust the padding to increase the overall size */
+}
+
+.g3{
+  width: 410px;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: center;
+}
+.g4{
+  position: relative;
+  margin-left: 35px;
+  top: 10px;
+}
+.g5{
+  position: absolute;
+  margin-top: 33px;
+  height: 40px;
+  width: 400px;
+  left: 30px;
+  border: 2px solid rgb(244, 239, 239);
+}
+.g6{
+  position: relative;
+  margin-left: 380px;
+  top: 10px;
+}
+.g7{
+  position: absolute;
+  margin-top: 33px;
+  height: 40px;
+  width: 400px;
+  left: 470px;
+  border: 2px solid rgb(244, 239, 239);
+
+}
+#advanc76e{
+  position: relative;
+  top: 180px;
+  margin-left: 30px;
+
+}
+.box723{
+  position: absolute;
+  width: 900px;
+  height: 140px;
+  border: 1px solid rgb(237, 232, 232);
+  margin-top: 190px;
+  margin-left: 20px;
+}
+#assig11n{
+  position: relative;
+  margin-left: 15px;
+  top: 7px;
+}
+.toggle-switc12h {
+  width: 30px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.toggle-switch-circ12le {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-switch.checked .toggle-switch-circ12le {
+  transform: translateX(20px);
+}
+.g8{
+  position: absolute;
+  margin-left: 60px;
+  top: 35px;
+}
+.toggle-swit12ch {
+  width: 30px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.toggle-switch-circ12le {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-swit12ch.checked .toggle-switch-circ12le {
+  transform: translateX(20px);
+}
+.jas12on{
+  position: absolute;
+  margin-left: 60px;
+  top: 65px;
+
+}
+.toggle-swit12ch {
+  width: 30px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: #ccc;
+  position: relative;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.toggle-switch-circ12le {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-switc12h.checked .toggle-switch-circ12le {
+  transform: translateX(20px);
+}
+.g9{
+  position: absolute;
+  margin-left: 60px;
+  top: 94px;
+
+}
+.g10{
+  position: absolute;
+  margin-left: 25px;
+  top: 117px;
+
+}
+
+/* Animation for form fields */
+
+.g2,
+.g3,.g6 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

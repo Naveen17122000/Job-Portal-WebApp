@@ -1,0 +1,67 @@
+/* JobAd.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: black;
+  }
+.create {
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    transform: translate(-110%, -110%);
+    margin-left: 100px;
+    color: #333; 
+  }
+form {
+    text-align: center;
+    height: 830px;
+    text-align: left;
+    margin: 20px;
+    background-color: white;
+    color:rgb(24, 23, 23);
+    border-radius: 10px;
+
+  }
+  
+  .Job {
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(7, 7, 7);
+    left: 100px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"]
+   {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    box-sizing: 30px;
+  }
+  textarea{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    box-sizing: 30px;
+  }
+  
+  button.job_submit {
+    position: flex;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  

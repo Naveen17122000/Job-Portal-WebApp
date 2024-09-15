@@ -1,0 +1,67 @@
+.Profiles{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+
+}
+
+.Profile {
+    border: 1px solid black;
+    width: 70%;
+    height: 34vh;
+    border-radius: 5px;
+    left: 10px;
+}
+.Profile h1{
+  margin: 10px;
+   
+}
+.Profile box-icon{
+    top: 8px;
+}
+.About{
+  border: 1px solid black;
+    width: 120%;
+    height: 70vh;
+    border-radius: 5px;
+    right: 50px;
+    padding: 10px;
+}
+ 
+.About td{
+  font-size: 20px;
+}
+.about-me{
+  margin: 20px 20px;
+} 
+.about-me p{
+  font-size: 15px;
+}
+.About hr{
+  width: 20rem;
+}
+.details{
+  margin: 50px 10px;
+}
+.About{
+  width: 700px;
+}
+
+/* Animation for form fields */
+.details,
+.About,
+.Profile {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

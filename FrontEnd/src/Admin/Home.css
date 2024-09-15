@@ -1,0 +1,88 @@
+
+
+/* You can further style the chart, description, and other elements as needed */
+ /* Main  */  
+ .Hmain-container {
+  grid-area: main;
+  padding: 20px 20px;
+  color: rgba(249, 243, 243, 0.95);
+  font-size: larger;
+}
+
+.Hmain-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Hmain-cards {
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  gap: 20px;
+  width: 70%;
+  height: 250px;
+  margin: 20px 0;
+}
+
+.Hcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.Hcard:first-child {
+  background-color: #2962ff;
+}
+
+.Hcard:nth-child(2) {
+  background-color: #ff6d00;
+}
+
+.Hcard:nth-child(3) {
+  background-color: #2e7d32;
+}
+
+.Hcard:nth-child(4) {
+  background-color: #d50000;
+}
+
+.Hcard-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Hcard-inner > .card_icon {
+  font-size: 25px;
+}
+
+.Hcharts {
+  width: 70%;
+  gap: 20px;
+  margin-top: 40px;
+  height: 300px;
+}
+
+.Hcharts h3{
+  position: relative;
+  font-size: 20px;
+  color: black;
+}
+.messages{
+  position: relative;
+  float: right;
+  top: -80vh;
+  right: -10px;
+  border: 2px solid black;
+  color: black;
+  width: 30%;
+  height: 70vh;
+  border-radius: 15px;
+}
+.messages h1{
+  top: 10px;
+  text-align: center;
+
+}
+/* End Main  */

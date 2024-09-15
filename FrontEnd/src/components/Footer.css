@@ -1,0 +1,224 @@
+
+.footer{
+  background-color: white;
+  width: 100%;  
+  height: 310px;
+  display: grid;
+  grid-template-columns: 10rem 1fr 1fr 1fr 1fr 10rem;
+}
+.logoimg1{
+  grid-column: 2/3;
+  position: relative;
+  width: 30%;
+  height: 130px;
+  float: left;  
+  bottom: 10px;
+}
+.f-job{
+  grid-column: 2/3;
+  position: relative;
+  text-align: left;
+  padding-left: 2%;
+  
+}
+.f-job h1{
+  position: relative;
+  top: 30px;
+  font-size: 32px;
+}
+.f-job h2{
+  position: relative;
+  top: 30px;
+  right: 2%;
+  font-size: 32px;
+}
+.f-job h3{
+  position: relative;
+  top: 30px;
+  right: 8%;
+  font-size: 30px;
+}
+.f-job h4{
+  position: relative;
+  top: 30px;
+  right: 2%;
+  font-size: 30px;
+  
+}
+.f-job p{
+  position: relative;
+  top: 21px;
+  font-size: 20px;
+  padding-top: 12px;
+  right: 10px;
+  
+}
+.f-links{
+ grid-column: 3/4 ;
+  position: relative;
+  text-align: left;
+  font-size: 30px;
+  color: black;
+  padding: 50px;
+  
+}
+
+.f-links ul li a {
+  text-transform: capitalize;
+  color: black;
+  transition: 0.5s;
+}
+.f-links ul li:hover > a {
+  transform-origin: left;
+  color: blue;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.f-address h1{
+  left: 10px;
+  top: 15px;
+  color: black;
+  font-size: 20px;
+  position: relative;
+}
+.f-address p{
+  grid-column: 4/5;
+  position: relative;
+  float: right;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 30px;
+ 
+}
+.f-socialmedia{
+  grid-column: 5/6;
+}
+.f-socialmedia h1{
+  font-size: 30px;
+  color: black;
+  left: 50px;
+  position: relative;
+  text-align: center;
+  padding: 60px;
+  padding-left: 10px;
+}
+.f-socialmedia box-icon{
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+  width: 50px;
+
+}
+
+
+/* responsive css style  */
+@media (max-width:1080px){
+  .footer{
+    grid-template-columns: 1rem 1fr 1fr 1fr 1fr 1rem;
+    height: 485px;
+   }
+   .f-job{
+    padding: 20px;
+   }
+   .f-socialmedia box-icon{
+    left: 20px;
+     top:20px;
+   }
+   .f-socialmedia h1{
+    position: relative;
+    top:70px;
+    left:10px;
+   }
+   
+   .f-job h3{
+    left: 10px;
+   font-size: 30px;
+   }
+   .f-job h4{
+    left: 20px;
+   font-size: 30px;
+   }
+   .f-job p{
+    font-size: 30px;
+    font-style: normal;
+    left: 10px;
+   }
+}
+
+
+@media (max-width: 998px) {
+   .footer{
+    grid-template-columns: 1rem 2fr 1fr 1fr 1fr 1rem;
+    height: 500px;
+   }
+   .f-socialmedia box-icon{
+    left: 10px;
+   }
+   .f-socialmedia h1{
+         left: 10px;
+         position: relative;
+   }
+   .f-job h3{
+    font-size: 20px;
+    left: 5px;
+   }
+   .f-job h4{
+    font-size: 20px;
+    left: 10px;
+   }
+   .f-address p{
+     font-size: 15px;
+   }
+   
+}
+@media (max-width: 798px) {
+  .footer{
+    height: 540px;
+    grid-template-columns: 1rem 2fr 1rem 2fr 1rem;
+  }
+  .f-job{
+    grid-column: 2/3;
+  }
+  .f-job h3{
+    left:10px;
+  }
+  .f-job h4{
+    left:10px;
+  }
+  .f-links{
+    grid-column: 4/5;
+  }
+  .f-address{
+    grid-column: 2/3;
+  }
+  .f-socialmedia{
+    grid-column: 4/5;
+  }
+  .f-socialmedia h1{
+    top: 0px;
+    text-align: left;
+  }
+  .f-socialmedia box-icon{
+    top:-50px;
+  }
+}
+
+@media (max-width: 520px){
+  .footer{
+    height: 1035px;
+    grid-template-columns: 1rem 2fr 1rem;
+  }
+  .f-job ,
+  .f-links,
+  .f-address,
+  .f-socialmedia{
+    grid-column: 2/3;
+  }
+  .f-job h3{
+    left: 8px;
+  }
+  .f-job h4{
+    left: 10px;
+  }
+}

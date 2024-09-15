@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+  
+}
+.rwrapper{
+  float: right;
+  position: relative;
+  top: -250px;
+  width: 420px;
+  right: 120px;
+  background: transparent;
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.rwrapper h1{
+  font-size: 30px;
+  text-align: center;
+}
+.rinput-box{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  margin: 30px 0;
+}
+.rinput-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.rinput-box input::placeholder{
+  color: #fff;
+}
+.rinput-box box-icon{
+  position: absolute;
+  right: 5px;
+  top: 32%;
+  transform: translate(-50%);
+  font-size: 20px;
+
+}
+ 
+.rbtn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+.r-register-link{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+
+}
+.r-register-link p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.r-register-link p a:hover{
+  text-decoration: underline;
+}
+
+ /* responsive css style  */
+ @media (max-width: 1080px) {
+  .rwrapper{
+   width: 380px;
+   right: 30px;
+   height: 450px;
+
+  }
+}
+
+@media (max-width: 998px) {
+ .rwrapper{
+   width: 340px;
+   right: 30px;
+   top:-200px;
+  }
+
+}
+@media (max-width: 798px) {
+ .rwrapper{
+   top: 170px;
+   padding: 30px;
+   right: -90px;
+   position: relative;
+   float: left;
+ }
+}
+
+@media (max-width: 520px) {
+ .rwrapper{
+   width:300px;
+   top: 180px;
+   position: relative;
+   float: left;
+   right: -10px;
+ }
+}

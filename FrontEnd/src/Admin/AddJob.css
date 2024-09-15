@@ -1,0 +1,89 @@
+.create {
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+    height: 82vh;
+    width: 110%;
+    left: 50px;
+    top:20px;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(7, 7, 7);
+}
+.text{
+    height: 110px;
+    width: 100%;
+    margin: 10px;
+    background: transparent; 
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.check-box{
+    margin: 5px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 50%;
+}
+.create-fields1{
+    width: 300px;
+    height: 50px;
+    color: black;
+    margin: 10px;
+    background: transparent; 
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+
+.labels{
+    position: absolute;
+    top: 15px;
+    font-style: bold;
+    left: 15px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: top .3s;
+    padding: 0 5px;
+    pointer-events: none;
+}
+.create-fields1:focus ~ .labels,
+.create-fields1:not(:placeholder-shown).create-fields1:not(:focus) ~.labels{
+ top: 0px;
+ background-color: white;
+
+}
+.text:focus ~ .labels,
+.text:not(:placeholder-shown).text:not(:focus) ~.labels{
+ top: 0px;
+ background-color: white;
+
+}
+
+
+.job-btn{
+    width: 120px;
+    height: 25px;
+    transition-duration: 0.4s;
+    font-size: 15px;
+    background-color: rgb(60, 60, 243);
+    border-radius: 10px;
+    
+  }
+  
+  .job-btn:hover {
+    background-color: rgb(44, 43, 43); /* Green */
+    color: white;
+  }
+.form{
+    width: 100%;
+    left:30px;
+    top: 10px;
+}
+
+  .form textarea{
+    width: 50%;
+  }

@@ -1,0 +1,51 @@
+
+  .j2{
+    background-color: #fff;
+    border: 2px solid #ccc;
+    padding: 10px;
+    max-width: 320px;
+    top: 10px;
+    text-align: left;  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    margin: 10 auto;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    float: left;
+    width: 400px;
+    font-size: larger;
+ }
+.j1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 5px;
+  width: auto;
+  min-height: 70vh;
+}
+.link1{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  .link1:hover {
+    background-color: #90979e;
+  }
+  .JobForm{
+    top: 10px;
+    left: 20px;
+  }
+.joblink{
+    top: -20px;
+    background-color:#007bff;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+  
+  

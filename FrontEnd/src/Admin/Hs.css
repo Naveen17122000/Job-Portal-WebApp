@@ -1,0 +1,194 @@
+.Hbody {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #1d2634;
+    color: #b3b3b8;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .Hicon {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+    color: rgb(107, 101, 101);
+  }
+  .Hicon_header {
+    vertical-align: center;
+    line-height: 1px;
+    font-size: 26px;
+  }
+  .Hicon, .Hicon_header {
+    margin-right: 10px;
+  }
+  .Hicon_header {
+    size: 17px;
+    padding: 10px;
+    position: relative;
+  }
+  .Hclose_icon {
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+ 
+  
+   .Hgrid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'sidebar header header header'
+      'sidebar main main main';
+    height: 100vh;
+    top: -40px;
+  }
+  /* Header  */
+  .Hheader {
+    grid-area: header;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0px 50px;
+    padding: 20px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+
+  }
+  .Hheader-right{
+    padding: 20px;
+    gap: 20px;
+  }
+  .Dash{
+    color:#1d2634;
+  }
+  .Hmenu-icon {
+    display: none;
+  }
+  .logout12{
+    background-color:black;
+    color:rgb(244, 161, 53);
+    border-radius: 20px;
+    height: 35px;
+    width:60px;
+  }
+  /* End Header  */
+  
+  /* Sidebar  */
+  #Hsidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: #263043;
+     width: 100%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .Hsidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .Hsidebar-title > span {
+    display: none;
+  }
+  .imag{
+    height: 100px;
+  }
+  .Hsidebar-brand {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .Hsidebar-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .Hsidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+  }
+  .cat{
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+  }
+  .Hsidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .Hsidebar-list-item > a {
+    text-decoration: none;
+    color: #9e9ea4;
+  }
+  
+  .Hsidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    z-index: 12 !important;
+  }
+  .Jobadd{
+    color:#9e9ea4;
+  }
+  /* End Sidebar  */
+  
+  
+ 
+  
+  
+  /* Medium <= 992px */
+    
+  @media screen and (max-width: 992px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 3fr;
+      grid-template-areas:
+        'header'
+        'main';
+    }
+  
+    #Hsidebar {
+      display: none;
+    }
+  
+    .Hmenu-icon {
+      display: inline;
+    }
+  
+    .Hsidebar-title > span {
+      display: inline;
+    }
+  }
+  /* Small <= 768px */
+    
+  @media screen and (max-width: 768px) {
+    .Hmain-cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 0;
+    }
+  
+    .Hcharts {
+      grid-template-columns: 1fr;
+      margin-top: 30px;
+    }
+  }
+  
+  /* Extra Small <= 576px */
+  
+  @media screen and (max-width: 576px) {
+    .Hhedaer-left {
+      display: none;
+    }
+  }

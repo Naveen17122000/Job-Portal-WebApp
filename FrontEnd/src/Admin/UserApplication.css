@@ -1,0 +1,39 @@
+.user-box{
+    margin: auto; 
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black; 
+    box-shadow: 0 0 30px rgb(7, 7, 7);
+  }
+  .bback{
+    margin-top: 20px;
+    margin-left: 865px;
+    background-color: black;
+    color: rgb(232, 172, 99);
+    height: 30px;
+    width: 50px;
+    border-radius: 20px;
+  }
+
+h3 {
+    color: black;
+    text-align: left;
+    padding: 40px;
+}
+
+
+.table {
+    width: 900px;
+    height: 50px;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    font-size: larger;
+    border: 2px solid black;
+    vertical-align: middle; /* Add this line to center the text vertically */
+}

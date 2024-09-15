@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    display:flex;
+   
+}
+main{
+    width: 100%;
+    padding: 0;
+    
+}
+.sidebar{
+    background: rgb(114, 109, 109);
+    color: #000;
+    height: 90vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    
+}
+
+.bars{
+    font-size: 25px;
+    margin-left: 10px;
+    top: -45px;
+    left: -30px;
+}
+.dashlink{
+    display: flex;
+    color: #000;
+    padding: 10px 15px;
+    gap: 15px; 
+    transition: all 0.5s;
+}
+.dashlink:hover{
+    background:rgb(232, 238, 240);
+    color: #000;
+    transition: all 0.5s;
+}
+
+.icon{
+    font-size: 200px; 
+   
+}
+.link_text{
+    font-size: 30px; 
+    
+}

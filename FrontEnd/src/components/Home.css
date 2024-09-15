@@ -1,0 +1,45 @@
+.jobhome{
+    top: 150px;
+    right: 250px;
+    width: 60%;
+    height: 400px;
+    
+}
+
+/* responsive css style  */
+@media (max-width: 1080px) {
+   .jobhome{
+    right: 200px;
+    width: 65%;
+    height: 300px;
+   }
+}
+
+@media (max-width: 998px) {
+    
+    .jobhome{
+        top:180px;
+        width: 60%;
+        right: 180px;
+        height: 400px;
+       }
+
+}
+@media (max-width: 798px) {
+    
+    .jobhome{
+        width: 90%;
+        right: 10px;
+        top: 160px;
+        height: 300px;
+       }
+
+
+}
+
+@media (max-width: 520px) {
+    .jobhome{
+        top: 180px;
+
+    }
+}
